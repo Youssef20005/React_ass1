@@ -6,11 +6,11 @@ import About from "./components/About/About";
 
 import Portfoilo from "./components/Portfoilos/Portfoilo";
 import Home from "./components/Home/Home";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createHashRouter } from "react-router-dom";
 import Layout from "./Layouts/Layout ";
 
 export default function App() {
-  const routers=createBrowserRouter([
+  const routers=createHashRouter([
     {
 path:'/',element:<Layout/>,children:[{
   index:true,element:<Home/>,
