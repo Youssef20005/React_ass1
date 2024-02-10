@@ -1,0 +1,12 @@
+.about h2{
+    color: #fff;
+    font-size: 40px;
+}
+.start-line{
+    width: 80px;
+    height: 4px;
+    background-color: #fff;
+}
+.about{
+    background-color: #1abc9c;
+}

@@ -1,0 +1,14 @@
+.copy{
+    background-color: #1A252F;
+}
+.details{
+    background-color: #2C3E50;
+}
+h3{
+    font-size: 28px;
+}
+.icons i{
+    border-radius: 50%;
+  border:1px solid white;
+  padding: 10px;
+}

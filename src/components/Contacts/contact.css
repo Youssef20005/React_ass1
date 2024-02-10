@@ -1,0 +1,12 @@
+h2{
+    color: #2C3E50;
+    font-size: 40px;
+}
+.start-line{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(44, 62, 80);
+}
+label{
+    display: none;
+}
