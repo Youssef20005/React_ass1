@@ -6,7 +6,7 @@ import About from "./components/About/About";
 
 import Portfoilo from "./components/Portfoilos/Portfoilo";
 import Home from "./components/Home/Home";
-import { RouterProvider, createBrowserRouter, } from "react-router-dom";
+import { BrowserRouter, RouterProvider, createBrowserRouter, } from "react-router-dom";
 import Layout from "./Layouts/Layout ";
 
 export default function App() {
@@ -31,7 +31,7 @@ path:'/',element:<Layout/>,children:[{
   ])
   return (
     <>
- <RouterProvider router={routers}/>
+ <BrowserRouter router={routers}/>
     </>
   );
 }
