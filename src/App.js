@@ -6,11 +6,11 @@ import About from "./components/About/About";
 
 import Portfoilo from "./components/Portfoilos/Portfoilo";
 import Home from "./components/Home/Home";
-import { BrowserRouter, RouterProvider, createBrowserRouter, } from "react-router-dom";
+import { BrowserRouter, HashRouter, RouterProvider, createBrowserRouter, createHashRouter, } from "react-router-dom";
 import Layout from "./Layouts/Layout ";
 
 export default function App() {
-  const routers=createBrowserRouter([
+  const routers=createHashRouter([
     {
 path:'/',element:<Layout/>,children:[{
   index:true,element:<Home/>,
@@ -31,7 +31,7 @@ path:'/',element:<Layout/>,children:[{
   ])
   return (
     <>
- <BrowserRouter router={routers}/>
+ <HashRouter router={routers}/>
     </>
   );
 }
