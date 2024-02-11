@@ -21,7 +21,11 @@ path:'/',element:<Layout/>,children:[{
   path:"/contact",element:<Contact/>,
 },{
   path:"/portfoilo",element:<Portfoilo/>,
-},]
+},{
+  path:"*",element:<h1>This Page Not Found !!</h1>
+
+  
+}]
   }
 
   ])
